@@ -1,0 +1,36 @@
+body {
+    background: #c8c525;
+    background: linear-gradient(to right, #ebfe82, #f1d901);
+}
+
+.imgg {
+    height: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 0;
+}
+
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
